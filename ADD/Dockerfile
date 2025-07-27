@@ -1,4 +1,3 @@
 FROM almalinux:9
-WORKDIR /tmp
-ADD https://www.sample-videos.com/zip/10mb.zip
-CMD ["sleep","1000"]
+ADD https://www.sample-videos.com/zip/10mb.zip /tmp
+CMD ["sleep","1000"] 
