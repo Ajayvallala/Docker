@@ -1,7 +1,7 @@
 FROM almalinux:9
-ENV Course="Devops" \
-    Duration="120hr" 
-ARG Trainer="Sivakumar"
-ENV Trainer=${Trainer}
-RUN echo "Hi, Course is:${Course}, duration is:${Duration} and trainer is:${Trainer}"
+ENV course="Devops" \
+    duration="120hr" 
+ARG trainer="Sivakumar"
+ENV trainer=$trainer
+RUN echo "Hi, Course is:${course}, duration is:${duration} and trainer is:${trainer}"
 CMD ["sleep","1000"]
