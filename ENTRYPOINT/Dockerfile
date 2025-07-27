@@ -1,2 +1,2 @@
 FROM almalinux:9
-CMD ["echo","helloword"]
+CMD ["ping","google.com"]
